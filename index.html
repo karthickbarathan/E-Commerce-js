@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazo </title>
+    <link rel="icon" type="image/x-icon" href="/logo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>Amazo</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+
+    <div class="header">
+        <div>
+            <h1>Level up your Style</h1>
+            <p>With Stunning Collections </p>
+            <button class="header-button">Shop Now</button>
+        </div>
+        <div>
+            <img class="header-image" src="https://source.unsplash.com/random/300x300/?fashion" alt="">
+        </div>
+    </div>
+
+    <div class="service" style="padding: 20px;">
+        <div class="service-container-1">
+            <div>
+                <h2>We provide best</h2>
+                <h2>Customer Experience</h2>
+            </div>
+            <div>
+                <p>|| we ensure that our customer have the best shoopping Experience</p>
+            </div>
+        </div>
+        <div class="service-container-2">
+            <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <h4>Satisfaction Guaranteee</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ipsam tempora excepturi! Dolorum, dolor. Dolore iusto accusantium inventore dolorem maiores.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-shekel-sign"></i>
+                <h4>New Arrival Everyday</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ipsam tempora excepturi! Dolorum, dolor. Dolore iusto accusantium inventore dolorem maiores.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-truck-fast"></i>
+                <h4>Fast & Free Shipping</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ipsam tempora excepturi! Dolorum, dolor. Dolore iusto accusantium inventore dolorem maiores.</p>
+            </div>
+        </div>
+        <div style="padding: 20px;">
+            <h2 style="padding: 20px;">New Arrival</h2>
+            <div class="new-arrival">
+                    <div class="new-arrival-container">
+                        <img src="https://source.unsplash.com/random/300x300/?fashion?1" alt="">
+                        <button>Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+                    </div>
+                    <div class="new-arrival-container">
+                        <img src="https://source.unsplash.com/random/300x300/?fashion?2" alt="">
+                        <button>Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+                    </div>
+                    <div class="new-arrival-container">
+                        <img src="https://source.unsplash.com/random/300x300/?fashion?3" alt="">
+                        <button>Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+                    </div>
+                    <div class="new-arrival-container">
+                        <img src="https://source.unsplash.com/random/300x300/?fashion?4" alt="">
+                        <button>Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+                    </div> 
+            </div>  
+        </div>
+        <div style="padding: 20px;">
+            <h2 style="padding: 20px;">Most Wanted</h2>
+            <div class="new-arrival">
+                    <div class="new-arrival-container">
+                        <img src="https://source.unsplash.com/random/300x300/?fashion?1" alt="">
+                        <button>Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+                    </div>
+                    <div class="new-arrival-container">
+                        <img src="https://source.unsplash.com/random/300x300/?fashion?2" alt="">
+                        <button>Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+                    </div>
+                    <div class="new-arrival-container">
+                        <img src="https://source.unsplash.com/random/300x300/?fashion?3" alt="">
+                        <button>Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+                    </div>
+                    <div class="new-arrival-container">
+                        <img src="https://source.unsplash.com/random/300x300/?fashion?4" alt="">
+                        <button>Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+                    </div> 
+            </div>  
+        </div>         
+    </div>
+
+    <div class="news">
+        <h2>Join Our News Letter</h2>
+        <p>SignUp for our email newsletter to get exclusive discounts and updates immediately</p>
+        <div>
+            <input type="text" class="search">
+        </div>
+
+        <div>
+            <button>Subscribe</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, necessitatibus porro perferendis eligendi debitis commodi alias veniam minima quidem dolorem?</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: black;"></i>
+                    <i class="fa-brands fa-twitter" style="color: black;"></i>
+                    <i class="fa-brands fa-whatsapp" style="color: black;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@ 2024 Amazo.com</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
